@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">WebCam Viewer</string>
+    <string name="image_loading">loading image...</string>
+    <string name="refresh_button">refresh</string>
+    <string name="cam_url">http://itwebcammh.fullerton.edu/axis-cgi/jpg/image.cgi?resolution=480x320</string>
+    <string name="cam_url2">http://cif.nfreeway.gov.tw/live-view/jpg/image.cgi?camera=187</string>
+</resources>
+	

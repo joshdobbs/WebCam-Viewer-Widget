@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+			
+	>
+	<ImageView android:id="@+id/bg" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/widgetbg"
+	/>
+		<ImageView 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:src="@drawable/dlerror"
+		android:id="@+id/webCamWidgetImage"
+		android:clickable="true"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="10dip"
+		android:layout_width="294dip"
+		android:layout_height="146dip" 
+		
+		/>
+		<Button
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/button1"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="40dip"
+		android:layout_marginRight="20dip"
+		android:layout_width="40dip"
+		android:layout_height="wrap_content"
+		android:text="1"
+		/>		
+		<Button
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/button2"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="20dip"
+		android:layout_below="@+id/button1"
+		android:layout_width="40dip"
+		android:layout_height="wrap_content"
+		android:text="2"
+		/>		
+		
+		
+</RelativeLayout>	
